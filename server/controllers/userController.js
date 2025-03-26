@@ -91,7 +91,7 @@ const userCredits = async (req, res) => {
 
     res.json({
       success: true,
-      credits: user.creditBalance || 5, // Default to 0 if creditBalance is undefined
+      credits: user.creditBalance || 0, // Default to 0 if creditBalance is undefined
       user: { name: user.name },
     });
   } catch (error) {
