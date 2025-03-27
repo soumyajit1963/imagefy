@@ -1,2 +1,2 @@
-*C:\Users\soumy\OneDrive\Desktop\imagefy\server\node_modules
-*.env
+node_modules
+.env
